@@ -1,12 +1,7 @@
 <?php
-define ("BOLA1", "FUTEBOL");
-define ("BOLA2", "BASQUETE");
-define ("BOLA_3","PING-PONG");
-define ("bola4","Tênis");
+// matroz 3x3 (tres linhas por tres colunas)
+$Matriz = array(array(69, 56, 47), array(85, 55, 73), array(15, 23, 33));
+echo $Matriz[2][1];
 
-echo BOLA1 . "<br>";
-echo BOLA2 ."<br>";
-echo BOLA_3;
 
-define ("5BOLA","Bola Murcha");
 ?>
